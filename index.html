@@ -312,9 +312,6 @@ details.lsn .body{padding:0 16px 16px}
      https://www.youtube.com/watch?v=EirlZ7fy3bE   ->  id is  EirlZ7fy3bE
      Leave id: "" and the app shows a friendly "video coming soon" box.
 
-   ⚠ TODO FOR ROB: Lesson 4 has no video picked yet. The doc points at a
-     YouTube *search* page, not a video. Pick one and paste the ID below.
-
    BLOCK TYPES you can use inside a step:
      {t:'p',    en:[lines], es:[lines]}        plain lines
      {t:'ul',   en:[lines], es:[lines]}        bullet list
@@ -955,20 +952,24 @@ const LESSONS = [
          "Planear ayuda al equipo a estar listo.",
          "Un buen líder pregunta: ¿Qué vamos a hacer? ¿Qué necesitamos? ¿Qué sigue? ¿Qué puede salir mal?"]
   },
-  /* ⚠ TODO ROB: pick a real video and paste the ID here. */
   video: {
-    id: "",
-    title: { en: "A short video about planning ahead",
-             es: "Un video corto sobre planear con anticipación" },
-    note:  { en: "", es: "" }
+    id: "bloGYeneiuY",
+    title: { en: "Napo — Planning for Safety (no words)",
+             es: "Napo — Planear con Seguridad (sin palabras)" },
+    note:  { en: "",
+             es: "Este video no tiene palabras. No importa el idioma. Solo mira cómo planear antes evita problemas." }
   },
   steps: [
     { n: 1,
       title: { en: "WATCH", es: "MIRA" },
       blocks: [
-        { t: 'p', en: ["Watch this short video about planning and thinking ahead.",
+        { t: 'p', en: ["Watch this short video.",
+                       "There are no words.",
+                       "Watch how planning helps before work starts.",
                        "While you watch, think about this:"],
-                  es: ["Mira este video corto sobre planear y pensar antes.",
+                  es: ["Mira este video corto.",
+                       "No tiene palabras.",
+                       "Mira cómo ayuda planear antes de empezar el trabajo.",
                        "Mientras miras, piensa en esto:"] },
         { t: 'q', en: "Why is it smart to plan before you start?",
                   es: "¿Por qué es inteligente planear antes de empezar?" }
